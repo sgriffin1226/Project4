@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+<style>
+*{
+	margin:0 0 6px;;
+}
+header{
+	text-align:left;
+	color:green;
+	background-color:black;
+	padding:30px 150px;
+}
+body {
+	background-color: green;
+}
+body p {
+	padding-left: 2em;
+}
+
+
+li, li a{ <!--links to other pages box-->
+	list-style: none;
+	background-color: black;
+	text-align: center;
+	color: green;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+h2{
+	width: 100%;
+	color: green;
+	line-height: 40px;
+}
+h3{
+	color: green;
+	line-height: 30px;
+	text-align: center;
+}
+
+#stuff{<!--the white box with coursework header-->
+	width: 720px;
+	margin: 0 auto;
+	box-shadow: 0 2px 15px #EEE;
+	min-height: 200px;
+	padding: 2px;
+	border-radius: 10px;
+	background-color: gray;
+}
+#stuff ul {<!--moves boxes around links-->
+	float:left;
+	width: 250px;
+}
+
+hr{
+	margin: 10px 0;
+	width: 100%;
+	size: 600;
+	float: left;
+}
+</style>
